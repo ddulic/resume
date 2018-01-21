@@ -21,8 +21,7 @@ FROM=$(grep -n "### Profile" $PAGE | awk -F':' '{print $1}')
 TO=$(grep -n "### Footer" $PAGE | awk -F':' '{print $1}')
 awk "FNR>=$FROM && FNR<=$(expr $TO - 1)" $PAGE >> $DEST
 
-echo '![](/images/damir-dulic.jpg)
-
+echo '
 Here is some social media stuff ⬇️
 - [Linkedin](https://www.linkedin.com/in/ddulic/)
 - [Github](https://github.com/ddulic)
