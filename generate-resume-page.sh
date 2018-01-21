@@ -12,6 +12,7 @@ DEST=$2
 echo '---
 title: Damir Dulić, DevOps Engineer
 date: 2018-01-04 23:23:14
+comments: false
 ---
 
 ---' > $DEST
@@ -30,7 +31,10 @@ Here is some social media stuff ⬇️
 
 ---
 
-If you want to contact me, my email is in the pdf version of my resume which can be viewed/downloaded <a class="no-smoothstate" href="/ddulic.pdf">here</a> ( please ignore the somewhat broken links in the pdf, there seems to be an issue in the tool used to generate the pdf :/ ).' >> $DEST
+If you want to contact me, my email is in the pdf version of my resume which can be downloaded below.
+Please ignore the somewhat broken links in the pdf, there seems to be an issue in the tool used to generate the pdf :/
+
+<a class="custom_btn" href="/ddulic.pdf">Download Resume</a>' >> $DEST
 
 sed -i '/<div style="page-break-after: always;"><\/div>/d' $DEST
 sed -i 's/ {#profile}//g' $DEST
