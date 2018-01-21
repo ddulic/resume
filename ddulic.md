@@ -27,7 +27,7 @@
   : Git, Github, Gitlab, Bitbucket, Jenkins, Docker
 
 * Deploy
-  : Chef, Consul, Puppet, Vagrant
+  : Chef, Consul, Puppet, Vagrant, Travis CI
 
 * Orchestration
   : Kubernetes, Rancher, Spinnaker
@@ -77,11 +77,11 @@ ICBTech
 
 ### Projects {#projects}
 
+[damir.tech](https://damir.tech)
+: Personal blog, wiki, grafana monitoring stack. Fully set up in docker compose. Blog and Resume hosted on AWS S3 using Github and Travis CI.
+
 [iplanung](https://iplanung.com)
 : Website manager. Deployed Wordpress, Nextcloud, and Mattermost.
-
-[damir.tech](https://damir.tech)
-: Personal blog, wiki, grafana monitoring stack. Fully set up in docker compose. Hosted on AWS S3 using Github and Travis-ci.
 
 ------
 
