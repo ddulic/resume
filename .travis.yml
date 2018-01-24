@@ -4,7 +4,7 @@ services:
 before_install:
 - cd && git clone https://github.com/ddulic/markdown-resume
 - cd markdown-resume && docker build -t ddulic/resume .
-- cd && rm -rf markdown-resume/examples/source/* && cp build/ddulic/resume/ddulic.md markdown-resume/examples/source/
+- cd && cp build/ddulic/resume/ddulic.md markdown-resume/examples/source/
 install:
 - docker run --rm -t -i -e RESUME=ddulic.md -e DISPLAY -v $HOME/markdown-resume/examples:/examples:rw ddulic/resume
 - cd build/ddulic/resume && ./generate-resume-page.sh ddulic.md index.md && ./push-to-hexo-website.sh
