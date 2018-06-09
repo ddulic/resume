@@ -1,5 +1,5 @@
 # Damir Dulić
-## DevOps Engineer
+## System Engineer
 
 > [damir.tech](https://damir.tech)  
 > [me@damir.tech](me@damir.tech)  
