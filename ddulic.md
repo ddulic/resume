@@ -48,9 +48,15 @@
 
 ### Experience {#experience}
 
+Elsevier (ScienceDirect)
+: *System Engineer* --
+  __June 2018 - Present__
+
+* TBD :D
+
 Vast.com
 : *DevOps Engineer* --
-  __Aug 2017 - Present__
+  __Aug 2017 - May 2018__
 
 * BASH, and Python scripting for various tasks such as automated database backups, rsync operations, and application installations
 * Managed and maintained ongoing changes to configuration in Chef
