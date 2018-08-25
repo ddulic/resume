@@ -1,4 +1,4 @@
-# Damir Dulić
+# Damir Dulic
 ## System Engineer
 
 > [damir.tech](https://damir.tech)  
