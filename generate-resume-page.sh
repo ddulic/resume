@@ -17,8 +17,8 @@ comments: false
 
 ---' > $DEST
 
-FROM=$(grep -n "### Profile" $PAGE | awk -F':' '{print $1}')
-TO=$(grep -n "### Footer" $PAGE | awk -F':' '{print $1}')
+FROM=$(grep -n "#### Profile" $PAGE | awk -F':' '{print $1}')
+TO=$(grep -n "#### Footer" $PAGE | awk -F':' '{print $1}')
 awk "FNR>=$FROM && FNR<=$(expr $TO - 1)" $PAGE >> $DEST
 
 echo '
@@ -36,7 +36,6 @@ If you want to contact me, my email is in the pdf version of my resume which can
 
 sed -i '/<div style="page-break-after: always;"><\/div>/d' $DEST
 sed -i 's/ {#profile}//g' $DEST
-sed -i 's/ {#skills}//g' $DEST
 sed -i 's/ {#experience}//g' $DEST
 sed -i 's/ {#projects}//g' $DEST
 sed -i 's/ {#education}//g' $DEST
