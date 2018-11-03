@@ -2,9 +2,7 @@ language: generic
 services:
 - docker
 before_install:
-- cd && git clone https://github.com/ddulic/markdown-resume
-- cd markdown-resume && docker build -t ddulic/resume .
-- cd && mkdir -p markdown-resume/examples/source && cp build/ddulic/resume/ddulic.md markdown-resume/examples/source/
+- cd && mkdir -p build/ddulic/resume/output
 install:
-- docker run --rm -t -i -e RESUME=ddulic.md -e DISPLAY -v $HOME/markdown-resume/examples:/examples:rw ddulic/resume
+- docker run -v ${PWD}:/resume there4/markdown-resume md2resume pdf -t readable ddulic.md output/
 - cd build/ddulic/resume && ./generate-resume-page.sh ddulic.md index.md && ./push-to-hexo-website.sh
