@@ -6,11 +6,11 @@
 
 #### Profile {#profile}
 
-* Detailed technical knowledge and hands-on experience in the design and implementation of fully automated CI and CD systems
+* Comprehensive technical knowledge and hands-on experience in the design and implementation of fully automated CI and CD systems
 * Passionate, responsible and committed engineer, with a get-it-done, on-time spirit
 * Highly adaptable in quickly changing technical environments with very strong organizational and analytical skills
-* Believer in Behaviour Driven Development and Agile software development principles
-* Self-motivated and hard working with the ability to work under minimal supervision and guidance
+* Believer of Behaviour Driven Development and Agile software development principles
+* Self-motivated and hardworking with the ability to work under minimal supervision and guidance
 
 ------
 
