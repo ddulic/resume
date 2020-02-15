@@ -10,7 +10,7 @@ PAGE=$1
 DEST=$2
 
 echo '---
-title: Damir Dulic, Systems Engineer
+title: Damir Dulic, DevOps Engineer
 date: 2018-01-04 23:23:14
 comments: false
 ---
