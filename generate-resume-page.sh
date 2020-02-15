@@ -38,4 +38,5 @@ sed -i '/<div style="page-break-after: always;"><\/div>/d' $DEST
 sed -i 's/ {#profile}//g' $DEST
 sed -i 's/ {#experience}//g' $DEST
 sed -i 's/ {#projects}//g' $DEST
+sed -i 's/ {#certificates}//g' $DEST
 sed -i 's/ {#education}//g' $DEST
