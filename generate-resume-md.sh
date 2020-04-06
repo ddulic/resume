@@ -11,8 +11,6 @@ DEST=$2
 
 echo '---
 title: Damir Dulic, DevOps Engineer
-date: 2018-01-04 23:23:14
-comments: false
 ---
 
 ---' > $DEST
@@ -32,7 +30,7 @@ Here is some social media stuff ⬇️
 
 If you want to contact me, my email is in the pdf version of my resume which can be downloaded below.
 
-<a class="custom_btn" href="/ddulic.pdf">Download Resume</a>' >> $DEST
+<a class="animated-button sandy-one" href="/ddulic.pdf">Download Resume</a>' >> $DEST
 
 sed -i '/<div style="page-break-after: always;"><\/div>/d' $DEST
 sed -i 's/ {#profile}//g' $DEST

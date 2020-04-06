@@ -5,4 +5,4 @@ before_install:
 - cd && mkdir -p build/ddulic/resume/output
 install:
 - docker run -v $HOME/build/ddulic/resume:/resume there4/markdown-resume md2resume pdf -t readable ddulic.md output/
-- cd build/ddulic/resume && ./generate-resume-page.sh ddulic.md index.md && ./push-to-hexo-website.sh
+- cd build/ddulic/resume && ./generate-resume-md.sh ddulic.md resume.md && ./push-to-website.sh
