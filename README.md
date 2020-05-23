@@ -1,6 +1,7 @@
+
 # Damir Dulic's Resume
 
-[![Build Status](https://travis-ci.org/ddulic/resume.svg?branch=master)](https://travis-ci.org/ddulic/resume)
+**Replaced by [ddulic/damir.tech](https://github.com/ddulic/damir.tech)**
 
 Used for the resume located @ https://damir.tech/resume
 
